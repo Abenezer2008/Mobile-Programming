@@ -35,7 +35,7 @@
             android:textSize="18sp"
             android:fontFamily="sans-serif-medium"
             android:id="@+id/question_num_one"
-            android:text="@string/_1_questions_list"
+            android:text="@string/question_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <LinearLayout
@@ -51,7 +51,7 @@
                     android:id="@+id/radio_q1_a"
                     android:textSize="18sp"
                     android:layout_width="wrap_content"
-                    android:text="@string/true_answer"
+                    android:text="@string/true_value"
                     android:layout_height="wrap_content"
                     android:onClick="question1"/>
                 <RadioButton
@@ -59,14 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
-                    android:text="@string/false_answer"
-                    android:onClick="question1"/>
-                <RadioButton
-                    android:id="@+id/radio_q1_c"
-                    android:layout_width="wrap_content"
-                    android:textSize="18sp"
-                    android:text="@string/i_am_not_sure"
-                    android:layout_height="wrap_content"
+                    android:text="@string/false_value"
                     android:onClick="question1"/>
             </RadioGroup>
         </LinearLayout>
@@ -83,7 +76,7 @@
             android:textSize="18sp"
             android:fontFamily="sans-serif-medium"
             android:id="@+id/question_num_two"
-            android:text="@string/_2_questions_list"
+            android:text="@string/question_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <LinearLayout
@@ -94,21 +87,14 @@
                     android:id="@+id/checkbox1"
                     android:textSize="18sp"
                     android:layout_width="wrap_content"
-                    android:text="@string/true_answer"
+                    android:text="@string/true_value"
                     android:layout_height="wrap_content"
                     android:onClick="question2"/>
                 <CheckBox
                     android:id="@+id/checkbox2"
-                    android:text="@string/false_answer"
+                    android:text="@string/false_value"
                     android:textSize="18sp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="question2"/>
-                <CheckBox
-                    android:id="@+id/checkbox3"
-                    android:text="@string/i_am_not_sure"
-                    android:layout_width="wrap_content"
-                    android:textSize="18sp"
                     android:layout_height="wrap_content"
                     android:onClick="question2"/>
         </LinearLayout>

@@ -2,10 +2,9 @@
     <string name="app_name">assignment-5-lesson-6-QuizApp</string>
     <string name="action_settings">Settings</string>
 
-    <string name="_1_questions_list">1. Kotlin Strings are mutable</string>
-    <string name="_2_questions_list">2. Kotlin data types are object type</string>
-    <string name="true_answer">True</string>
-    <string name="false_answer">False</string>
-    <string name="i_am_not_sure">I am not sure</string>
+    <string name="question_1">1. The View class is the basic building block for all UI components.</string>
+    <string name="question_2">2. When the Activity is no longer in the memory, it is said to be in the running state.</string>
+    <string name="true_value">True</string>
+    <string name="false_value">False</string>
     <string name="btn_reset">reset</string>
 </resources>
