@@ -1,4 +1,4 @@
-package com.example.assignment_3_lesson_4
+package com.example.part1
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
 import android.widget.TableRow
 import android.widget.TextView
-import com.example.assignment_3_lesson_4.databinding.ActivityMainBinding
+import com.example.part1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

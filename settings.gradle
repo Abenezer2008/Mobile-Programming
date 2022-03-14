@@ -16,3 +16,6 @@ rootProject.name = "kotlin101"
 include ':app'
 include ':app:assignment-3-lesson-4-part1'
 include ':app:assignment-3-lesson-4-part2'
+include ':app:assignement-4-lesson-5'
+include ':app:assignment-5-lesson-6-part1'
+include ':app:assignment-5-lesson-6-quizapp'
