@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunic
         }.attach()
 
 
-//        user?.apply { binding.toolbar.title = "$ CV" }
         binding.toolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.menu_main_setting -> {

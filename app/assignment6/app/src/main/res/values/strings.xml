@@ -2,13 +2,13 @@
     <string name="app_name">CV-Builder-App</string>
     <string name="aben_tsegaw">Abenezer Tsegaw</string>
     <string name="software_developer">Software-Developer</string>
-    <string name="projects"><b>Waziup</b>:Android Application for farmers using IoT technology.\n<b>Awtar</b>:Music entertainment application in Ethiopia.\n<b>Vere Italie</b>:Italian based restaurant booking app and website.\n<b>ECOMUB</b>:business solutions in ecommerce and logistics sectors.</string>
-    <string name="career_note">Experienced Full-stack Java/Kotlin developer with over 4 years of hands-on experience on enterprise software development by implementing complete software development life cycle phases.</string>
-    <string name="work_experience"><b>Languages</b>: Java 8, Kotlin\n<b>Web Services</b>: RESTful API, Microservices\n<b>Design Patterns</b>: Dependency Injection, Dagger1, Dagger2, Adapter, Observer,Factory, MVP, MVC, MVVM\n<b>SDLC</b>: Agile/Scrum, Test-Driven Development
-    </string>
+    <string name="projects"><b>Human Factor</b>:A web based application service that empower employees of a tech company to reduce the company\'s cyber vulnerability by providing customised phishing and malware simulation campaigns.\n<b>AndroGuard</b>:A comprehensive security service for android devices with Machine Learning powered features of phishing and malware detection and threat neutralising tools.   .\n</string>
+    <string name="career_note">Currently working as a Senior Software Engineer at KForce Inc for clients with a business need of developing backend web services specialized in warehouse management and distribution centers.</string>
+    <string name="work_experience"><b>Languages</b>: Java, Python, JavaScript\n<b>Frameworks</b>: Spring, Django, NodeJs\n<b>Cloud</b>: GCP, PCF, AWS\n<b>Database</b>: MSSQL, Postgres, MongoDB </string>
     <string name="career_note_label">Career Note</string>
     <string name="about_me_label">About Me</string>
-    <string name="about_me">A .</string>
+    <string name="about_me">Skilled Java developer with over 4 years of hands-on experience building enterprise software and web applications with Java, Python, JavaScript, and related technologies and frameworks. Been involved with different teams through the phases of the software development life cycle.
+Skilled in backend development (REST, Microservice) with Spring, Spring Boot, Spring Cloud, Spring Security, Hibernate, JPA, Apache Kafka, Docker. Familiar with NodeJS and JavaScript frameworks such as Express and Angular.</string>
     <string name="my_college">My Colleges</string>
     <string name="education">Education</string>
     <string name="associate_android_developer">Associate Android Developer</string>
