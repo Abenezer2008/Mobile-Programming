@@ -1,4 +1,4 @@
-package edu.miu.walmartlogin.adapter
+package edu.miu.cvBuilder.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

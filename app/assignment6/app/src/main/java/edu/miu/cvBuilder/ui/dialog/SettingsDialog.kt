@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.dialog
+package edu.miu.cvBuilder.ui.dialog
 
 import CVBuilderApp.R
 import android.app.Dialog
@@ -10,8 +10,8 @@ import android.widget.Button
 import android.widget.RadioButton
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
-import edu.miu.CVBuilderApp.utils.AppUtils
-import edu.miu.CVBuilderApp.utils.Utils
+import edu.miu.cvBuilder.helper.AppUtils
+import edu.miu.cvBuilder.helper.Utils
 
 class SettingsDialog : DialogFragment() {
     private lateinit var communicator: DialogCommunicator

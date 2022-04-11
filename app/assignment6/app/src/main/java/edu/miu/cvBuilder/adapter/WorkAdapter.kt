@@ -1,4 +1,4 @@
-package edu.miu.walmartlogin.adapter
+package edu.miu.cvBuilder.adapter
 
 import CVBuilderApp.R
 import android.annotation.SuppressLint
@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import edu.miu.CVBuilderApp.data.Work
+import edu.miu.cvBuilder.domain.Work
 
 class WorkAdapter(val context: Context, val workList: MutableList<Work>) :
     RecyclerView.Adapter<BaseViewHolder?>() {

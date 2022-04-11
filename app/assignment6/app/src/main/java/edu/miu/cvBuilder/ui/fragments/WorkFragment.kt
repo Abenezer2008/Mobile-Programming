@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.fragments
+package edu.miu.cvBuilder.ui.fragments
 
 import CVBuilderApp.R
 import android.annotation.SuppressLint
@@ -7,9 +7,9 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import edu.miu.CVBuilderApp.data.Work
-import edu.miu.CVBuilderApp.ui.dialog.WorkDialog
-import edu.miu.walmartlogin.adapter.WorkAdapter
+import edu.miu.cvBuilder.domain.Work
+import edu.miu.cvBuilder.ui.dialog.WorkDialog
+import edu.miu.cvBuilder.adapter.WorkAdapter
 
 class WorkFragment : Fragment(R.layout.fragment_work) {
 

@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.activity
+package edu.miu.cvBuilder.ui.activity
 
 import CVBuilderApp.R
 import CVBuilderApp.databinding.ActivityMainBinding
@@ -7,12 +7,12 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import edu.miu.CVBuilderApp.adapter.MyViewAdapter
-import edu.miu.CVBuilderApp.data.Work
-import edu.miu.CVBuilderApp.ui.dialog.DialogCommunicator
-import edu.miu.CVBuilderApp.ui.dialog.SettingsDialog
-import edu.miu.CVBuilderApp.ui.dialog.WorkDialogCommunicator
-import edu.miu.CVBuilderApp.utils.AppUtils
+import edu.miu.cvBuilder.adapter.MyViewAdapter
+import edu.miu.cvBuilder.domain.Work
+import edu.miu.cvBuilder.ui.dialog.DialogCommunicator
+import edu.miu.cvBuilder.ui.dialog.SettingsDialog
+import edu.miu.cvBuilder.ui.dialog.WorkDialogCommunicator
+import edu.miu.cvBuilder.helper.AppUtils
 
 
 class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunicator {
@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunic
         }.attach()
 
 
-        user?.apply { binding.toolbar.title = "$user's CV" }
+//        user?.apply { binding.toolbar.title = "$ CV" }
         binding.toolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.menu_main_setting -> {

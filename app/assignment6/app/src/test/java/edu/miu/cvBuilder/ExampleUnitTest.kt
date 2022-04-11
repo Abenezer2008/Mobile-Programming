@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp
+package edu.miu.cvBuilder
 
 import org.junit.Test
 

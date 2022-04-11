@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.dialog
+package edu.miu.cvBuilder.ui.dialog
 
 interface DialogCommunicator {
     fun onChangeTheme(theme: String)

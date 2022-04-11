@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.data
+package edu.miu.cvBuilder.domain
 
 import java.io.Serializable
 

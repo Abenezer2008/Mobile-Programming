@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.dialog
+package edu.miu.cvBuilder.ui.dialog
 
 import CVBuilderApp.R
 import android.app.Dialog
@@ -11,7 +11,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
-import edu.miu.CVBuilderApp.data.Work
+import edu.miu.cvBuilder.domain.Work
 
 class WorkDialog : DialogFragment() {
     private lateinit var communicator: WorkDialogCommunicator

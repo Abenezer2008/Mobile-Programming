@@ -16,11 +16,12 @@
     <string name="certification">Certification</string>
     <string name="aastu">Addis-Ababa Science and Tech</string>
     <string name="aastu_duration">2015-2019</string>
+    <string name="aastu_location">Kilinto, Addis-Ababa, Ethiopia</string>
     <string name="bsc_major">Bachelors of Science in Computer Science</string>
     <string name="msc_major">Master of Science in Computer Science</string>
     <string name="miu">Maharishi International University</string>
     <string name="miu_duration">2021-2023</string>
-
+    <string name="miu_location">Fairfield, Iowa,  US</string>
     <string name="oracle_db_12c_administrator_certified_professional">Oracle DB 12c Administrator Certified Professional</string>
     <string name="_2_5_2019">2/5/2019</string>
     <string name="github">GitHub</string>

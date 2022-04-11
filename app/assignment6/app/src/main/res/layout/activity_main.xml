@@ -5,11 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.miu.CVBuilderApp.ui.activity.MainActivity"
+    tools:context="edu.miu.cvBuilder.ui.activity.MainActivity"
     android:orientation="vertical">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        app:title="CV Builder"
+        app:title="My CV"
         app:titleTextColor="@color/white"
         android:theme="@style/App.ToolbarMenuItem"
         android:layout_width="match_parent"

@@ -1,9 +1,9 @@
-package edu.miu.CVBuilderApp.utils
+package edu.miu.cvBuilder.helper
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatDelegate
-import edu.miu.CVBuilderApp.ui.activity.LoginActivity
+import edu.miu.cvBuilder.ui.activity.LoginActivity
 
 object Utils {
     val LIGHT = "light"

@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.activity
+package edu.miu.cvBuilder.ui.activity
 
 import CVBuilderApp.R
 import CVBuilderApp.databinding.ActivityWebBinding

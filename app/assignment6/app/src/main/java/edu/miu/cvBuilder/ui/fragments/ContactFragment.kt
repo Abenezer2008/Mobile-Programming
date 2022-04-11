@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.fragments
+package edu.miu.cvBuilder.ui.fragments
 
 import CVBuilderApp.R
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
-import edu.miu.CVBuilderApp.ui.activity.WebActivity
+import edu.miu.cvBuilder.ui.activity.WebActivity
 
 class ContactFragment : Fragment(R.layout.fragment_contact) {
 

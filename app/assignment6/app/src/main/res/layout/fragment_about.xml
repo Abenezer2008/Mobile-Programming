@@ -69,7 +69,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_margin="@dimen/horizontal_margin_8"
                     android:clickable="true"
                     android:focusable="true"
@@ -108,7 +108,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:layout_marginStart="4dp"
                             android:layout_marginEnd="4dp"
                             android:gravity="center_vertical"
@@ -127,6 +127,12 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="@string/msc_major"
+                                android:textColor="@color/mater_grey_700"
+                                android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/miu_location"
                                 android:textColor="@color/mater_grey_700"
                                 android:textSize="12sp" />
                             <TextView
@@ -155,7 +161,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:layout_marginStart="4dp"
                             android:layout_marginEnd="4dp"
                             android:gravity="center_vertical"
@@ -179,6 +185,12 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:text="@string/aastu_location"
+                                android:textColor="@color/mater_grey_700"
+                                android:textSize="12sp" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
                                 android:text="@string/aastu_duration"
                                 android:textColor="@color/mater_grey_700"
                                 android:textSize="12sp" />
@@ -196,7 +208,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_margin="@dimen/horizontal_margin_8"
                     android:clickable="true"
                     android:focusable="true"

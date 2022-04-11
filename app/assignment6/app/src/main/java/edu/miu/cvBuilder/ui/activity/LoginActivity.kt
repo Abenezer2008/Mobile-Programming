@@ -1,4 +1,4 @@
-package edu.miu.CVBuilderApp.ui.activity
+package edu.miu.cvBuilder.ui.activity
 
 import CVBuilderApp.R
 import CVBuilderApp.databinding.ActivityLoginBinding
@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import edu.miu.CVBuilderApp.utils.AppUtils
+import edu.miu.cvBuilder.helper.AppUtils
 
 class LoginActivity : AppCompatActivity() {
 
