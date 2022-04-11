@@ -76,7 +76,6 @@ Skilled in backend development (REST, Microservice) with Spring, Spring Boot, Sp
 
     <string name="login_title"><b>Welcome \n to \n Your-CV-Builder</b></string>
     <string name="something_went_wrong">Something went wrong.</string>
-    <string name="my_twitter">https://twitter.com/adukidus</string>
     <string name="my_linkedin">https://www.linkedin.com/in/abenezer-tsegaw/</string>
     <string name="my_github">https://github.com/abenezer2008</string>
     <string name="my_email">atsegaw@miu.edu</string>

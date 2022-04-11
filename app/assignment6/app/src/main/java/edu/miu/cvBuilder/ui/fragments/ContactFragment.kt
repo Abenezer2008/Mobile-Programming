@@ -40,11 +40,6 @@ class ContactFragment : Fragment(R.layout.fragment_contact) {
         startActivity(intent)
     }
 
-    private fun onTwitterClicked() {
-        val intent = Intent(context, WebActivity::class.java)
-        intent.putExtra(getString(R.string.intent_key), getString(R.string.my_twitter))
-        startActivity(intent)
-    }
 
     private fun onGithubClicked() {
         val intent = Intent(context, WebActivity::class.java)
