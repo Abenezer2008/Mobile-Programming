@@ -11,13 +11,13 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import edu.miu.cvBuilder.domain.Work
 
-class WorkAdapter(val context: Context, val workList: MutableList<Work>) :
-    RecyclerView.Adapter<BaseViewHolder?>() {
+class WorkViewAdapter(val context: Context, val workList: MutableList<Work>) :
+    RecyclerView.Adapter<MainView?>() {
 
-    override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): BaseViewHolder {
+    override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): MainView {
         val itemEvents: View = LayoutInflater.from(viewGroup.context)
             .inflate(R.layout.item_work, viewGroup, false)
-        return AssignedTasksViewHolder(itemEvents)
+        return AssignedTasksView(itemEvents)
     }
 
     fun addWork(work: Work){
@@ -25,13 +25,13 @@ class WorkAdapter(val context: Context, val workList: MutableList<Work>) :
         notifyDataSetChanged()
     }
 
-    override fun onBindViewHolder(baseViewHolder: BaseViewHolder, i: Int) {
-        baseViewHolder.onBind(i)
+    override fun onBindViewHolder(mainView: MainView, i: Int) {
+        mainView.onBind(i)
     }
 
     override fun getItemCount(): Int = workList.size
 
-    inner class AssignedTasksViewHolder(view: View?) : BaseViewHolder(view) {
+    inner class AssignedTasksView(view: View?) : MainView(view) {
         var title: TextView? = view?.findViewById(R.id.rv_work_title)
         var image: ImageView? = view?.findViewById(R.id.rv_work_logo)
         var workPosition: TextView? = view?.findViewById(R.id.rv_work_position)

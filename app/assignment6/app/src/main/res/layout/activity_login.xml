@@ -11,19 +11,7 @@
     tools:ignore="UselessParent"
     tools:context="edu.miu.cvBuilder.ui.activity.LoginActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:contentDescription="@string/app_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.303"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/miu"
-        tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:layout_width="match_parent"

@@ -37,7 +37,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-black"
                         android:gravity="center_vertical"
-                        android:text="@string/work_experience_label"
+                        android:text="@string/work_experience_txt"
                         android:textColor="@color/textCardTitle"
                         android:textSize="18sp" />
 

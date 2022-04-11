@@ -7,10 +7,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
-import edu.miu.cvBuilder.adapter.MyViewAdapter
+import edu.miu.cvBuilder.adapter.ViewAdapter
 import edu.miu.cvBuilder.domain.Work
 import edu.miu.cvBuilder.ui.dialog.DialogCommunicator
-import edu.miu.cvBuilder.ui.dialog.SettingsDialog
 import edu.miu.cvBuilder.ui.dialog.WorkDialogCommunicator
 import edu.miu.cvBuilder.helper.AppUtils
 
@@ -19,7 +18,7 @@ class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunic
 
     private lateinit var binding: ActivityMainBinding
     private var sharedPref: SharedPreferences = AppUtils.getSharedPref()
-    private lateinit var adapter: MyViewAdapter
+    private lateinit var adapter: ViewAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -33,20 +32,16 @@ class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunic
         binding.tabLayout.tabGravity = TabLayout.GRAVITY_FILL
         TabLayoutMediator(binding.tabLayout, binding.pager) { tab, position ->
             when (position) {
-                0 -> tab.text = getString(R.string.home_menu)
-                1 -> tab.text = getString(R.string.about_me_menu)
-                2 -> tab.text = getString(R.string.work_menu)
-                3 -> tab.text = getString(R.string.contact_menu)
+                0 -> tab.text = getString(R.string.home_tab)
+                1 -> tab.text = getString(R.string.aboutme_tab)
+                2 -> tab.text = getString(R.string.work_tab)
+                3 -> tab.text = getString(R.string.contact_tab)
             }
         }.attach()
 
 
         binding.toolbar.setOnMenuItemClickListener { menuItem ->
             when (menuItem.itemId) {
-                R.id.menu_main_setting -> {
-                    showNoticeDialog()
-                    return@setOnMenuItemClickListener true
-                }
                 R.id.menu_main_logout -> {
                     finish()
                     return@setOnMenuItemClickListener true
@@ -56,10 +51,6 @@ class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunic
         }
     }
 
-    private fun showNoticeDialog() {
-        val dialog = SettingsDialog()
-        dialog.show(supportFragmentManager, SettingsDialog::class.java.name)
-    }
 
     override fun onChangeTheme(theme: String) {
         with(sharedPref.edit()) {
@@ -70,7 +61,7 @@ class MainActivity : AppCompatActivity(), DialogCommunicator, WorkDialogCommunic
     }
 
     private fun showWorkDialog() {
-        adapter = MyViewAdapter(supportFragmentManager, lifecycle)
+        adapter = ViewAdapter(supportFragmentManager, lifecycle)
         binding.pager.adapter = adapter
     }
 

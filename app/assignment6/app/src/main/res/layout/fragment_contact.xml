@@ -49,7 +49,7 @@
                         android:scaleType="fitCenter"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/contact_phone"/>
+                        android:src="@drawable/phone"/>
 
                     <LinearLayout
                         android:gravity="center_vertical"
@@ -96,7 +96,7 @@
                         android:scaleType="fitCenter"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/contact_email"/>
+                        android:src="@drawable/email"/>
 
                     <LinearLayout
                         android:gravity="center_vertical"
@@ -143,7 +143,7 @@
                         android:scaleType="fitCenter"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/contact_linkedin"/>
+                        android:src="@drawable/linkedin"/>
 
                     <LinearLayout
                         android:gravity="center_vertical"
@@ -189,7 +189,7 @@
                         android:scaleType="fitCenter"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/contact_github"/>
+                        android:src="@drawable/github"/>
 
                     <LinearLayout
                         android:gravity="center_vertical"

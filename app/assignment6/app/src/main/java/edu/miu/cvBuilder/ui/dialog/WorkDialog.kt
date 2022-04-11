@@ -30,8 +30,9 @@ class WorkDialog : DialogFragment() {
                     val title = view.findViewById<EditText>(R.id.et_dialog_company).text.toString().trim()
                     val position = view.findViewById<EditText>(R.id.et_dialog_position).text.toString().trim()
                     val duration = view.findViewById<EditText>(R.id.et_dialog_duration).text.toString().trim()
-                    validate(title, position, duration)
-                    communicator.onAddWOrk(Work(title, position, duration, R.drawable.ic_work_placeholder,""))
+                    val description = view.findViewById<EditText>(R.id.et_dialog_description).text.toString()
+                    validate(title, position, duration,description)
+                    communicator.onAddWOrk(Work(title, position, duration, R.drawable.ic_work_placeholder,description))
                     dismiss()
                 }
 
@@ -43,17 +44,21 @@ class WorkDialog : DialogFragment() {
         return dialog
     }
 
-    fun validate(title: String, position: String, duration: String){
+    fun validate(title: String, position: String, duration: String,description: String){
         if(title.isEmpty()){
-            Toast.makeText(context, "Enter title", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, "Name cannot be empty!", Toast.LENGTH_LONG).show()
             return
         }
         if(position.isEmpty()){
-            Toast.makeText(context, "Enter position", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, "Title cannot be empty!", Toast.LENGTH_LONG).show()
             return
         }
         if(duration.isEmpty()){
-            Toast.makeText(context, "Enter duration", Toast.LENGTH_LONG).show()
+            Toast.makeText(context, "Tenure cannot be empty!", Toast.LENGTH_LONG).show()
+            return
+        }
+        if(description.isEmpty()){
+            Toast.makeText(context, "Description cannot be empty!", Toast.LENGTH_LONG).show()
             return
         }
     }

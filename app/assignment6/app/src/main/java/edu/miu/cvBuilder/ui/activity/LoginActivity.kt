@@ -32,11 +32,11 @@ class LoginActivity : AppCompatActivity() {
         val pass = binding.etPassword.text.toString().trim()
 
         if(user.isEmpty()){
-            Toast.makeText(applicationContext,"Please enter your username", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext,"username cannot be empty!", Toast.LENGTH_LONG).show()
             return
         }
         if(pass.isEmpty()){
-            Toast.makeText(applicationContext,"Please enter your password", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext,"password cannot be empty!", Toast.LENGTH_LONG).show()
             return
         }
         openMainActivity(user, pass)

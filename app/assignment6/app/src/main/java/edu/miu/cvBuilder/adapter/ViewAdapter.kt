@@ -10,7 +10,7 @@ import edu.miu.cvBuilder.ui.fragments.ContactFragment
 import edu.miu.cvBuilder.ui.fragments.HomeFragment
 import edu.miu.cvBuilder.ui.fragments.WorkFragment
 
-class MyViewAdapter(fm:FragmentManager,lc:Lifecycle) : FragmentStateAdapter(fm,lc) {
+class ViewAdapter(fm:FragmentManager, lc:Lifecycle) : FragmentStateAdapter(fm,lc) {
     override fun getItemCount(): Int = 4
     val workFragment = WorkFragment()
     override fun createFragment(position: Int): Fragment {

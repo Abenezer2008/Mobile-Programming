@@ -21,7 +21,6 @@ class WebActivity : AppCompatActivity() {
         val url: String = intent.getSerializableExtra(getString(R.string.intent_key)) as String
         val title: String = when (url) {
             getString(R.string.my_linkedin) -> getString(R.string.linked_in_title)
-            getString(R.string.my_twitter) -> getString(R.string.twitter_in_title)
             getString(R.string.my_github) -> getString(R.string.github_in_title)
             else -> getString(R.string.app_name)
         }

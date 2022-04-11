@@ -9,12 +9,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import edu.miu.cvBuilder.domain.Work
 import edu.miu.cvBuilder.ui.dialog.WorkDialog
-import edu.miu.cvBuilder.adapter.WorkAdapter
+import edu.miu.cvBuilder.adapter.WorkViewAdapter
 
 class WorkFragment : Fragment(R.layout.fragment_work) {
 
     private var workList = mutableListOf<Work>()
-    private lateinit var adapter: WorkAdapter
+    private lateinit var viewAdapter: WorkViewAdapter
     private lateinit var recyclerView: RecyclerView
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,7 +43,7 @@ class WorkFragment : Fragment(R.layout.fragment_work) {
                     getString(R.string.work1),
                     getString(R.string.position_1),
                     getString(R.string.work1_tenure),
-                    R.drawable.kforce,
+                    R.drawable.tera,
                     getString(R.string.work1_desc)
                 )
             )
@@ -57,8 +57,8 @@ class WorkFragment : Fragment(R.layout.fragment_work) {
     private fun setupRecyclerView() {
         if (::recyclerView.isInitialized) {
             recyclerView.layoutManager = LinearLayoutManager(context)
-            adapter = WorkAdapter(requireContext(), workList)
-            recyclerView.adapter = adapter
+            viewAdapter = WorkViewAdapter(requireContext(), workList)
+            recyclerView.adapter = viewAdapter
         }
     }
 
@@ -70,8 +70,8 @@ class WorkFragment : Fragment(R.layout.fragment_work) {
     @SuppressLint("NotifyDataSetChanged")
     fun onAddWOrk(work: Work) {
         workList.add(work)
-        if (::adapter.isInitialized) {
-            adapter.notifyDataSetChanged()
+        if (::viewAdapter.isInitialized) {
+            viewAdapter.notifyDataSetChanged()
         } else {
             setupRecyclerView()
         }

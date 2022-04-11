@@ -32,25 +32,26 @@ Skilled in backend development (REST, Microservice) with Spring, Spring Boot, Sp
     <string name="miu_email">atsegaw@miu.com</string>
     <string name="phone">Phone</string>
     <string name="my_phone_no">641-819-1219</string>
-    <string name="my_contact">My Contact</string>
+    <string name="my_contact">Contact Me</string>
     <string name="_2020">2020</string>
-    <string name="work_experience_label">Work Experience</string>
+    <string name="add_experience">Add New Experience</string>
+    <string name="work_experience_txt">Work Experience</string>
 
     <string name="work1">Teraflics Inc</string>
-    <string name="position_1">Freelance Software Developer</string>
+    <string name="position_1"><b>Freelance Software Developer</b></string>
     <string name="work1_tenure">2017 - 2019</string>
-    <string name="work1_desc"><b>Developed Applications for small business owners.</b></string>
+    <string name="work1_desc"><b>Developed Applications for small business owners. The work description includes designing a software system that will fit with the requirements provided by the business owners who wants to expand their customer base and increase their profit margin; Implement the design and bring it to life by using the latest and efficient tools and technologies available with a possible future expansion.</b></string>
 
 
     <string name="work2">Better Mobile Inc</string>
-    <string name="position_2">Software Developer</string>
+    <string name="position_2"><b>Software Developer</b></string>
     <string name="work2_tenure">2019 - 2021</string>
-    <string name="work2_desc"><b>Developed malware and phishing detection apps for a targeted fortune-500 companies.</b></string>
+    <string name="work2_desc"><b>Developed malware and phishing detection apps for a targeted fortune-500 companies. The work description includes designing a software system that will fit with the requirements provided by the business owners who wants to expand their customer base and increase their profit margin; Implement the design and bring it to life by using the latest and efficient tools and technologies available with a possible future expansion.</b></string>
 
     <string name="work3">Kforce Inc</string>
-    <string name="position_3">Senior Software Engineer</string>
+    <string name="position_3"><b>Senior Software Engineer</b></string>
     <string name="work3_tenure">2021 - Present</string>
-    <string name="work3_desc"><b>Developed backend applications according to business requirements of clients.</b></string>
+    <string name="work3_desc"><b>Developed backend applications according to business requirements of clients. The work description includes designing a software system that will fit with the requirements provided by the business owners who wants to expand their customer base and increase their profit margin; Implement the design and bring it to life by using the latest and efficient tools and technologies available with a possible future expansion.</b></string>
 
 
     <string name="projects_label">Projects</string>
@@ -67,11 +68,13 @@ Skilled in backend development (REST, Microservice) with Spring, Spring Boot, Sp
     <string name="settings">Settings</string>
     <string name="cancel">Cancel</string>
     <string name="saved_theme">theme</string>
-    <string name="home_menu">Home</string>
-    <string name="about_me_menu">About Me</string>
-    <string name="work_menu">Work</string>
-    <string name="contact_menu">Contact</string>
-    <string name="login_title">Sign in to your account</string>
+
+    <string name="home_tab">Home</string>
+    <string name="aboutme_tab">About Me</string>
+    <string name="work_tab">Work</string>
+    <string name="contact_tab">Contact</string>
+
+    <string name="login_title">Sign in / Sign up</string>
     <string name="something_went_wrong">Something went wrong.</string>
     <string name="my_twitter">https://twitter.com/adukidus</string>
     <string name="my_linkedin">https://www.linkedin.com/in/abenezer-tsegaw/</string>
@@ -90,12 +93,12 @@ Skilled in backend development (REST, Microservice) with Spring, Spring Boot, Sp
     <string name="_1_4_2019">1/4/2019</string>
     <string name="_8_9_2018">8/9/2018</string>
     <string name="setting">Setting</string>
-    <string name="add">add</string>
+    <string name="save">save</string>
     <string name="logout">Logout</string>
 
-    <string name="login_email">Username(required)</string>
-    <string name="login_password">Password(required)</string>
-    <string name="login_email_hint">example@domain.com</string>
+    <string name="login_email">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_email_hint">example@mail.com</string>
     <string name="login_password_hint">*******</string>
     <string name="login_btn">Login</string>
     <string name="login_don_t_have_an_account_yet">Don\'t have an account?</string>
