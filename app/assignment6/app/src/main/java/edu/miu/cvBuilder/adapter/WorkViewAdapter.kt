@@ -16,7 +16,7 @@ class WorkViewAdapter(val context: Context, val workList: MutableList<Work>) :
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): MainView {
         val itemEvents: View = LayoutInflater.from(viewGroup.context)
-            .inflate(R.layout.item_work, viewGroup, false)
+            .inflate(R.layout.work_unit, viewGroup, false)
         return AssignedTasksView(itemEvents)
     }
 
