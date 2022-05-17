@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.navigation.Navigation
 import edu.miu.quizapp.R
-import edu.miu.quizapp.utils.BaseFragment
+import edu.miu.quizapp.helpers.BaseFragment
 
 class ResultFragment : BaseFragment() {
 

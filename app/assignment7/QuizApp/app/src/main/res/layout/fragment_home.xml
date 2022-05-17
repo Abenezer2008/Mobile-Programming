@@ -75,13 +75,13 @@
                         android:id="@+id/radio_q1_c"
                         android:layout_width="wrap_content"
                         android:textSize="18sp"
-                        android:text="@string/i_am_not_sure"
+                        android:text="@string/no_idea"
                         android:layout_height="wrap_content"/>
                     <RadioButton
                         android:id="@+id/radio_q1_d"
                         android:layout_width="wrap_content"
                         android:textSize="18sp"
-                        android:text="@string/i_am_not_sure"
+                        android:text="@string/no_idea"
                         android:layout_height="wrap_content"/>
                 </RadioGroup>
             </LinearLayout>

@@ -12,11 +12,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.Navigation
 import edu.miu.quizapp.R
-import edu.miu.quizapp.db.Quiz
-import edu.miu.quizapp.db.QuizDatabase
-import edu.miu.quizapp.utils.AppUtils.*
-import edu.miu.quizapp.utils.BaseFragment
-import edu.miu.quizapp.utils.toast
+import edu.miu.quizapp.data.Quiz
+import edu.miu.quizapp.data.QuizDatabase
+import edu.miu.quizapp.helpers.AppUtils.*
+import edu.miu.quizapp.helpers.BaseFragment
+import edu.miu.quizapp.helpers.toast
 import kotlinx.coroutines.launch
 
 class HomeFragment : BaseFragment() {
@@ -58,7 +58,7 @@ class HomeFragment : BaseFragment() {
             if (selectedChoice != null){
                 evaluateAnswer(selectedChoice!!)
                 changeQuestion(view)
-            } else context?.toast(getString(R.string.please_provide_answer_toast_message))
+            } else context?.toast(getString(R.string.toast_message))
 
         }
         radioGroup = view.findViewById(R.id.question_radio)
